@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LoveCalculator</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    
-    <img src="./heart without bg.png" alt="Heart" width="40%">
+    <link rel="stylesheet" href="./index.css" />
+  </head>
 
-    <br><br><br><br>
+  <body>
+    <div id="wrapper">
+      <h1 title="No such thing as love but go ahead and try it anyway">
+        Love Calculator
+      </h1>
 
-    <input type="text" title="Name 1">
-    <br><br><br><br>
-    <input type="text">
+      <h2
+        title="Love might be as mythical as unicorns, but hey, let's sprinkle some fairy dust and see if we can summon it anyway!"
+      >
+        Assess the compatibility and love between two individuals.
+      </h2>
 
-</body>
+      <img
+        src="./heart without bg.png"
+        alt="Heart"
+        width="20%"
+        title="I wanna eat this heart cause it looks like a tasty strawberry candy"
+      />
+
+      <br /><br /><br /><br />
+
+      <form autocomplete="off">
+        <label for="name1">Name 1</label>
+        <input type="text" id="name1" />
+        <br /><br /><br /><br />
+
+        <label for="name2">Name 2</label>
+        <input type="text" id="name2" />
+        <br /><br /><br /><br />
+
+        <button>Calculate</button>
+      </form>
+    </div>
+  </body>
 </html>

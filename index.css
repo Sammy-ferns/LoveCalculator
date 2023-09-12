@@ -1,3 +1,27 @@
 body {
-    background-color: lightpink;
+  background-color: lightpink;
+}
+
+#wrapper {
+  text-align: center;
+  display: block;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  font-size: 17px;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  font-size: 17px;
+  /* background-color: rgb(198, 221, 236); */
+  background-color: #FFE6E6;
+  border: 5px solid#ba7676;
+}
+
+button:hover {
+    background-color: #DAEAF1;
 }
