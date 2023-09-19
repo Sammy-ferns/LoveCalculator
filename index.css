@@ -1,5 +1,18 @@
 body {
-  background-color: lightpink;
+  /* background-color: lightpink; */
+  background-image: url(https://images.unsplash.com/photo-1589307004173-3c95204d00ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+  background-size: cover;
+  font-family: "Croissant One", cursive;
+}
+
+h1 {
+  border: 5px solid rgb(155, 9, 33);
+  display: inline-block;
+  padding: 5px;
+}
+
+h2 {
+  font-style: italic;
 }
 
 #wrapper {
@@ -17,11 +30,14 @@ button {
   width: 200px;
   height: 30px;
   font-size: 17px;
-  /* background-color: rgb(198, 221, 236); */
-  background-color: #FFE6E6;
+  font-family: "Croissant One", cursive;;
+  background-color: #ffe6e6;
   border: 5px solid#ba7676;
+  border-radius: 50px; /* Half of the button's height to create a pill shape */
+  height: 50px;
 }
 
 button:hover {
-    background-color: #DAEAF1;
+  background-color: #daeaf1;
+  text-decoration: underline;
 }
