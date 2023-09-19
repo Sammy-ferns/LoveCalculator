@@ -30,7 +30,7 @@ button {
   width: 200px;
   height: 30px;
   font-size: 17px;
-  font-family: "Croissant One", cursive;;
+  font-family: "Croissant One", cursive;
   background-color: #ffe6e6;
   border: 5px solid#ba7676;
   border-radius: 50px; /* Half of the button's height to create a pill shape */
@@ -40,4 +40,36 @@ button {
 button:hover {
   background-color: #daeaf1;
   text-decoration: underline;
+}
+
+/* @keyframes pulse {
+  0% 100% {
+    width: 25%;
+  }
+  50% {
+    width: 27%;
+  }
+}
+
+#pulsingHeart {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+} */
+
+#pulsingHeart {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
